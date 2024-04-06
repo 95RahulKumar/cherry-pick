@@ -1,7 +1,9 @@
+*** learnig cherry-pick in git 
+*committing in feature branch"
+
 git cat-file hashcode -p
   will give the details about 
-commits 
-
+commits
 
 commands for renaming the file name  in windows
 mv filename want to rename new file name 
