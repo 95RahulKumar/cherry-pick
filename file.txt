@@ -45,4 +45,21 @@ as well as removes the content of files it makes working area as it was previous
 
 git reset command also removes the commit msg
 
+**********Git Stash******************
+The real use case for the git stash is if you have changes in the current branch and you want to switch branches, but you don't want to 
+commit your changes. because of the middle of the development
+then git stashing comes into picture.
+stash means --> store something safely in hidden place ie git temporarely saves your changes without commiting it in current branch
+***common command for GIT stashing***
+git statsh
+git stash list -- popuplate all stashed changes ( in satsh list always latest 
+stash will be on top )
+git stash save "custom name for stash" -- to create stash with custom name
+git stash --  create a stash with "WIP in <branch name>"
+git stash pop -- remove the recent stash from list and apply current branch
+git stash apply -- same as pop but do not removes from stash list
+git stash apply stash@{id} -- will apply specific stash in current branch
+git stash drop stash@{id} -- will delete specific stash from the list
+git stash clear -- clear all stash from the list
 
+hello for stash
