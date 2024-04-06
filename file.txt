@@ -5,3 +5,5 @@ if branch exist in local and not exist in remote then
 if you want to push the changes in remote then git shows 
  git push --set-upstream origin feature 
  to upstream branch
+ NOTE:
+ The --set-upstream option in git push links your local branch to the corresponding remote branch. This means that, in the future, you can just use git pull or git push without specifying the branch. If
