@@ -1,3 +1,7 @@
 *** learnig cherry-pick in git 
 *committing in feature branch"
 *** some changes done in order to  publice change ***
+if branch exist in local and not exist in remote then 
+if you want to push the changes in remote then git shows 
+ git push --set-upstream origin feature 
+ to upstream branch
