@@ -62,4 +62,4 @@ git stash apply stash@{id} -- will apply specific stash in current branch
 git stash drop stash@{id} -- will delete specific stash from the list
 git stash clear -- clear all stash from the list
 
-hello for stash
+git checkout - for move into previous active branch in you ware
